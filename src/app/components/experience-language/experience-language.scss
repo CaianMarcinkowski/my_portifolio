@@ -1,0 +1,54 @@
+.experience-language {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+
+    img {
+        filter: grayscale(100%);
+    }
+
+    .experience-unit {
+        display: flex;
+        width: 300px;
+        border-radius: 24px;
+        border: 1px solid var(--text-secundary);
+        height: 30px;
+        justify-content: flex-start;
+        align-items: center;
+
+        .experience-measure {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            height: 30px;
+            border-radius: 24px;
+            background: linear-gradient(90deg, #777CF4 2.62%, #F47777 93.38%);
+            border: 1px solid linear-gradient(90deg, #777CF4 2.62%, #F47777 93.38%);
+
+
+            color: var(--text-primary);
+            font-weight: 300;
+            text-align: center;
+            font-size: 12px;
+
+            &.measure-1 {
+                width: 25%;
+            }
+
+            &.measure-2 {
+                width: 50%;
+            }
+
+            &.measure-3 {
+                width: 75%;
+            }
+
+            &.measure-4 {
+                width: 100%;
+            }
+        }
+    }
+}
