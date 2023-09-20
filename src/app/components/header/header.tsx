@@ -8,7 +8,7 @@ export function Header(){
             <h2>Software developer</h2>
         </div>
         <Image
-          src="/perfil.jpeg"
+          src="/perfil.png"
           alt="Perfil Photo"
           width={260}
           height={260}

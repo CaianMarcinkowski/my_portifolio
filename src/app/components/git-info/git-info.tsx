@@ -1,5 +1,6 @@
 import { SectionTitle } from "../sessionTitle/section-title"
 import "./git-info.scss"
+
 export function GitInfo() {
   return (
     <div className="languages-git">
