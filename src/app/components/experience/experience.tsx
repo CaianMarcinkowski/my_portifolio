@@ -17,7 +17,7 @@ export function Experience() {
                 
                 <ExperienceLanguage time="3" imagem="/android.png" alt="Android Logo"/>
 
-                <ExperienceLanguage time="4" imagem="/sql.png" alt="SQL Logo"/>
+                <ExperienceLanguage time="2" imagem="/php.png" alt="PHP Logo"/>
                 
             </div>
         </div>

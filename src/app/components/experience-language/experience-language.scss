@@ -5,11 +5,6 @@
     justify-content: center;
     gap: 8px;
 
-
-    img {
-        filter: grayscale(100%);
-    }
-
     .experience-unit {
         display: flex;
         width: 300px;
@@ -25,8 +20,8 @@
             display: flex;
             height: 30px;
             border-radius: 24px;
-            background: linear-gradient(90deg, #777CF4 2.62%, #F47777 93.38%);
-            border: 1px solid linear-gradient(90deg, #777CF4 2.62%, #F47777 93.38%);
+            background: linear-gradient(90deg, #f77825 2.62%, #60b99a 93.38%);
+            border: 1px solid linear-gradient(90deg, #f77825 2.62%, #60b99a 93.38%);
 
 
             color: var(--text-primary);

@@ -6,6 +6,8 @@ import "./styles/home.scss"
 import { EmailIcon } from './components/icons/email-icon'
 import { SocialBtns } from './components/social-btns/social-btns'
 import { Footer } from './components/footer/footer'
+import { GitIcon } from './components/icons/git-icon'
+import { GitInfo } from './components/git-info/git-info'
 
 export default function Home() {
   return (
@@ -20,7 +22,7 @@ export default function Home() {
             <EmailIcon/>
           </a>
         </div>
-        <Footer/>
+      <GitInfo/>      
     </main>
   )
 }
