@@ -27,9 +27,9 @@ export function ExperienceLanguage({ imagem, time, alt }: ExperienceLanguageProp
             />
             <div className="experience-unit">
                 <motion.div className={"experience-measure measure-" + time}
-                    initial={{ opacity: 0, width: '0%' }}
-                    whileInView={{ opacity: 1, width: ((time*100)/4)+'%' }}
-                    exit={{ opacity: 0 }}
+                    initial={{ width: '0%' }}
+                    whileInView={{ width: ((time*100)/4)+'%' }}
+                    exit={{ width: '0%' }}
                     transition={{ duration: 0.5 }}
                     
                 >
