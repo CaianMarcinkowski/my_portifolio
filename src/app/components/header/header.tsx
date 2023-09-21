@@ -1,8 +1,16 @@
+"use client";
 import Image from 'next/image'
 import "./header.scss"
+import { motion } from 'framer-motion'
+
 export function Header(){
     return(
-        <div className="header">
+        <motion.div className="header" 
+        initial={{ opacity:0, x: -100 }} 
+        whileInView={{opacity:1, x: 0 }}
+        exit={{opacity:0, x: -100 }}
+        transition={{ duration: 0.5 }}
+        >
         <div>
             <h1>Hi, I am Caian 👨‍💻</h1>
             <h2>Software developer</h2>
@@ -14,6 +22,6 @@ export function Header(){
           height={260}
           priority
         />
-      </div>
+      </motion.div>
     )
 }

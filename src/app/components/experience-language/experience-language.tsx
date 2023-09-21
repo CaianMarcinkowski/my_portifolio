@@ -1,14 +1,23 @@
+"use client";
 import Image from "next/image";
 import "./experience-language.scss";
+import { motion } from 'framer-motion'
+
 
 interface ExperienceLanguageProps {
-    time: string,
+    time: number,
     imagem: string,
     alt: string
 }
-export function ExperienceLanguage({imagem, time, alt}: ExperienceLanguageProps) {
+export function ExperienceLanguage({ imagem, time, alt }: ExperienceLanguageProps) {
+    
     return (
-        <div className="experience-language">
+        <motion.div className="experience-language"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.5 }}
+        >
             <Image
                 src={imagem}
                 alt={alt}
@@ -17,10 +26,16 @@ export function ExperienceLanguage({imagem, time, alt}: ExperienceLanguageProps)
                 priority
             />
             <div className="experience-unit">
-                <div className={"experience-measure measure-"+time}>
+                <motion.div className={"experience-measure measure-" + time}
+                    initial={{ opacity: 0, width: '0%' }}
+                    whileInView={{ opacity: 1, width: ((time*100)/4)+'%' }}
+                    exit={{ opacity: 0 }}
+                    transition={{ duration: 0.5 }}
+                    
+                >
                     <span>{time} years</span>
-                </div>
+                </motion.div>
             </div>
-        </div>
+        </motion.div>
     )
 }
