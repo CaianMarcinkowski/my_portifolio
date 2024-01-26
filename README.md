@@ -24,7 +24,7 @@ Este projeto foi desenvolvido com Next.js. Para visualizar o meu portfólio loca
 
 ##Visualizar Online
 
-Você também pode acessar meu portfólio online, que está hospedado na AWS. [Clique aqui para visitar o meu portfólio](http://ec2-18-228-94-206.sa-east-1.compute.amazonaws.com/).
+Você também pode acessar meu portfólio online, que está hospedado na Vercel. [Clique aqui para visitar o meu portfólio](https://my-portifolio-two-orcin.vercel.app/).
 
 Agradeço por visitar meu portfólio e estou aberto a oportunidades de colaboração e projetos emocionantes. Não hesite em entrar em contato comigo!
 
